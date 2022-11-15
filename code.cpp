@@ -5,8 +5,7 @@ using namespace chrono;
 
 int main() {
     srand(time(0));
-    setlocale(LC_ALL, "ru_RU.UTF-8");
-    system("chcp 65001");
+    setlocale(0, "");
     const int N = 100;
     short A[N], A2[N];
     int arr[N], arr_[N];
